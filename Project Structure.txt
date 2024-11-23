@@ -1,0 +1,19 @@
+Medical-Image-Segmentation/
+│
+├── data/
+│   ├── yes/        <-- Images with tumors
+│   ├── no/         <-- Images without tumors
+│
+├── models/
+│   └── fuzzy_cnn.py         <-- The Fuzzy CNN model
+│
+├── utils/
+│   ├── preprocess.py        <-- Preprocessing scripts
+│   ├── fuzzify.py           <-- Fuzzification functions
+│
+├── config/
+│   └── config.py            <-- Configuration parameters
+│
+├── main.py                  <-- Main script to train and test
+├── requirements.txt         <-- Dependencies
+└── README.md                <-- Project documentation
